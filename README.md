@@ -11,7 +11,7 @@ With Firebase there is an added benefit of being able to store data and host you
 * Assuming you have an existing firebase project: 
     * Run `firebase init` to initialize firebase in your project and be sure to select the existing project.
     * Be sure to include Firebase Hosting, and Firestore
-    * Ensure that your public directory is the same as the build `outputPath` in your `angular.json`. In this case it will be `/dist/Ng-Portfolio`.
+    * Ensure that your public directory is the same as the build `outputPath` in your `angular.json`. In this case it will be `/dist/EbrahimPortfolio`.
 * **Be sure to include your Firebase config settings inside the `environment.ts` and `environment.prod.ts`** (Feels like a bit too much effort to create separate environments for a portfolio app.
 
 
@@ -26,7 +26,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 * Be sure to delete the current `/dist` directory and all of its contents. 
 * Run `ng build --prod`.
-* Cd in to the `/dist/Ng-Portfolio` directory and run the command: `firebase deploy --only hosting`.
+* Cd in to the `/dist/EbrahimPortfolio` directory and run the command: `firebase deploy --only hosting`.
 * Have a look at the terminal for the URL which your app will be hosted on.
 
 ## Running unit tests
